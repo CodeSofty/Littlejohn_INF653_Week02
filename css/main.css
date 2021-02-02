@@ -1,0 +1,40 @@
+html,body {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+body {
+    background-color: #3BC34C;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 2rem;
+}
+
+.errorMssg {
+    text-align: center;
+    color: red;
+}
+
+.userInfo, .spanDateInfo {
+    font-size: 2rem;
+    background-color: #8BE696;
+    padding: 2rem;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+    margin: 0 auto; 
+    align-items: center;
+}
